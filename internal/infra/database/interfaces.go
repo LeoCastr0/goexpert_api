@@ -1,6 +1,6 @@
 package database
 
-import "github.com/leocastr0/goexpert/api/internal/entity"
+import "github.com/LeoCastr0/goexpert_api/internal/entity"
 
 type UserInterface interface {
 	Create(user *entity.User) error

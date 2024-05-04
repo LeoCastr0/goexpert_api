@@ -5,11 +5,11 @@ import (
 	"net/http"
 	"strconv"
 
+	"github.com/LeoCastr0/goexpert_api/internal/dto"
+	"github.com/LeoCastr0/goexpert_api/internal/entity"
+	"github.com/LeoCastr0/goexpert_api/internal/infra/database"
+	entityPkg "github.com/LeoCastr0/goexpert_api/pkg/entity"
 	"github.com/go-chi/chi/v5"
-	"github.com/leocastr0/goexpert/api/internal/dto"
-	"github.com/leocastr0/goexpert/api/internal/entity"
-	"github.com/leocastr0/goexpert/api/internal/infra/database"
-	entityPkg "github.com/leocastr0/goexpert/api/pkg/entity"
 )
 
 type ProductHandler struct {

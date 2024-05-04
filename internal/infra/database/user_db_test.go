@@ -3,7 +3,7 @@ package database
 import (
 	"testing"
 
-	"github.com/leocastr0/goexpert/api/internal/entity"
+	"github.com/LeoCastr0/goexpert_api/internal/entity"
 	"github.com/stretchr/testify/assert"
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"

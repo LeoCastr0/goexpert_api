@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"time"
 
+	"github.com/LeoCastr0/goexpert_api/internal/dto"
+	"github.com/LeoCastr0/goexpert_api/internal/entity"
+	"github.com/LeoCastr0/goexpert_api/internal/infra/database"
 	"github.com/go-chi/jwtauth"
-	"github.com/leocastr0/goexpert/api/internal/dto"
-	"github.com/leocastr0/goexpert/api/internal/entity"
-	"github.com/leocastr0/goexpert/api/internal/infra/database"
 )
 
 type UserHandler struct {

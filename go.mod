@@ -1,4 +1,4 @@
-module github.com/leocastr0/goexpert/api
+module github.com/LeoCastr0/goexpert_api
 
 go 1.21.1
 
