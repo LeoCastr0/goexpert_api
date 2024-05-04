@@ -1,0 +1,21 @@
+basePath: /
+host: localhost:8000
+info:
+  contact:
+    email: leonardofagundescastro@gmail.com
+    name: Leonardo F. De Castro
+    url: http://www.swagger.io/support
+  description: This is the API developed in the course following the learned content.
+  license:
+    name: Leonardo F. de Castro License
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  termsOfService: http://swagger.io/terms/
+  title: Pos Go Expert API
+  version: "1.0"
+paths: {}
+securityDefinitions:
+  ApiKeyAuth:
+    in: header
+    name: Authorization
+    type: apiKey
+swagger: "2.0"
